@@ -544,6 +544,9 @@ template {
   padding: 10px 5px;
   list-style: none;
 }
+.seccion__segunda__derecha li {
+  padding: 5px 0;
+}
 .seccion__segunda__derecha li:before {
   content: "✓";
   padding: 0 3px 0 0;

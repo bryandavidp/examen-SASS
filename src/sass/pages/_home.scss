@@ -50,6 +50,9 @@
         padding: 10px 5px;
         list-style: none;
     }
+    li{
+        padding: 5px 0;
+    }
     li:before{
         content: "\2713";
         padding: 0 3px 0 0;
