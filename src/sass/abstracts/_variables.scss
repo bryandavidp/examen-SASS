@@ -1,3 +1,31 @@
 /* ********* */
 /* @VARIABLES */
 /* ********* */
+
+/* Colores */
+
+$colores__basicos: (
+    botones: #00a8ff
+);
+
+$color__fondo1: #F2F8F8;
+$color__fondo2: #FFFFFF;
+
+$colores__tipografia: (
+    titulos: #2C3230,
+    subtitulos: #959A9E,
+    texto: #959A9E,
+    texto__cita: #00a8ff,
+    borde: #00a8ff,
+    blanco: #FFFFFF
+);
+
+
+$font-size__titulos: 2rem;
+$font-size__subtitulos: 1.2rem;
+$font-size__texto: 1rem;
+$font-size__botones: 1rem;
+
+/* Imagenes CSS */
+$imagen__2: url('../assets/img/desktop/iphones-right.png');
+$imagen__1: url('../assets/img/desktop/iphones-left.png');

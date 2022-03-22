@@ -1,3 +1,84 @@
 /* ********* */
 /* @HOME */
 /* ********* */
+
+
+.seccion__primera{
+    background-color: $color__fondo1;
+}
+
+.seccion__segunda{
+    background-color: $color__fondo2;
+}
+
+.seccion__primera__izquierda{
+    .titulo{
+        color: map-get($colores__tipografia, titulos);
+        font-size: $font-size__titulos;
+    }
+
+    .texto{
+        color: map-get($colores__tipografia, texto);
+        font-size: $font-size__texto;
+        padding: 15px 0;
+
+    }
+
+    .cita{
+        color: map-get($colores__tipografia, texto__cita);
+        font-size: $font-size__texto;
+        padding: 10px 5px;
+        border-left: 3px solid map-get($colores__tipografia, borde);
+    }
+}
+
+.seccion__segunda__derecha{
+    .titulo{
+        color: map-get($colores__tipografia, titulos);
+        font-size: $font-size__titulos;
+    }
+
+    .texto{
+        color: map-get($colores__tipografia, texto);
+        font-size: $font-size__texto;
+        padding: 15px 0;
+    }
+
+    .lista{
+        color: map-get($colores__tipografia, texto);
+        font-size: $font-size__texto;
+        padding: 10px 5px;
+        list-style: none;
+    }
+    li:before{
+        content: "\2713";
+        padding: 0 3px 0 0;
+        color: map-get($colores__tipografia, borde);
+    }
+}
+
+
+.izquierda__boton{
+    text-decoration: none;
+
+    .nube{
+        color: map-get($colores__tipografia, blanco);
+        width: 30px;
+        padding: 0 5px 0 0;
+    }
+
+    button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        color: map-get($colores__tipografia, blanco);
+        font-size: $font-size__botones;
+        background-color: map-get($colores__basicos, botones);
+        border-radius: 5px;
+        border: none;
+        padding: 10px;
+        margin-top: 30px;
+    }
+}

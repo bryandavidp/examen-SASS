@@ -1,3 +1,72 @@
 /* ********* */
 /* @GRID*/
 /* ********* */
+
+$width-contenedor: 100%;
+$height-contenedor: auto;
+
+.contenedor{
+display: flex;
+flex-direction: column;
+width: $width-contenedor;
+height: $height-contenedor;
+}
+
+.seccion__primera{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+
+    &__izquierda{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        width: 45%;
+        padding: 50px;
+    }
+
+    &__derecha{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        width: 45%;
+        padding: 50px;
+        background: $imagen__1 no-repeat center center;
+        background-size: 80%;
+
+    }
+    
+}
+
+.seccion__segunda{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+
+    &__izquierda{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        width: 45%;
+        padding: 50px;
+        background: $imagen__2 no-repeat center center;
+        background-size: 80%;
+
+    }
+
+    &__derecha{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        width: 45%;
+        padding: 50px;
+    }
+
+}
+
